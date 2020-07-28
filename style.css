@@ -1,3 +1,7 @@
+/* *{
+    padding: 0px;
+    } */
+
 .navbar-brand{
     color: white;
     background-color: teal;
@@ -6,8 +10,7 @@
 
 .placeholder{
     padding: 20px;
-    border: 5px solid red
-    /* box-sizing: padding-box; */
+    width: 350px;
 }
     
 .h1{
@@ -19,9 +22,13 @@ color: teal;
 }
 
 .card{
-    background-color: darkgrey;
-    border: 5px  teal;
+    background-color: rgb(30, 39, 39);
+    border: 5px solid teal;
     border-style: solid hidden hidden hidden;
     width: auto;
     padding: 0;
+}
+
+.footer{
+    padding: 0px;
 }
