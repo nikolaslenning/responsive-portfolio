@@ -1,5 +1,5 @@
 /* *{
-    padding: 0px;
+    flex: none;
     } */
 
 .navbar-brand{
@@ -9,8 +9,8 @@
 }
 
 .placeholder{
-    padding: 20px;
-    width: 350px;
+    padding: 20px; 
+    
 }
     
 .h1{
