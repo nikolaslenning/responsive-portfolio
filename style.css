@@ -1,6 +1,3 @@
-/* *{
-    flex: none;
-    } */
 
 .navbar-brand{
     color: white !important; /*Figure out a way to make override default CSS styling without using IMPORTANT*/
@@ -10,7 +7,8 @@
 
 .placeholder{
     padding: 20px; 
-    
+    margin: 0;
+    max-width: 390px;
 }
     
 .h1{
@@ -19,6 +17,7 @@ color: teal;
 
 .container{
     justify-content: center;
+    margin: 20px;
 }
 
 .card{
