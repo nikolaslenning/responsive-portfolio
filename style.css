@@ -3,6 +3,7 @@
     color: white !important; /*Figure out a way to make override default CSS styling without using IMPORTANT*/
     background-color: teal;
     width: max-content;
+    float: left;
 }
 
 .placeholder{
@@ -33,9 +34,8 @@ color: teal;
     padding: 0px;
 }
 
-.clearfix{
+.clearfix::after{
     display: block;
     content: "";
     clear: both;
-
   }
