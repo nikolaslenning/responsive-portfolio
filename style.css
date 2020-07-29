@@ -3,9 +3,9 @@
     } */
 
 .navbar-brand{
-    color: white;
+    color: white !important; /*Figure out a way to make override default CSS styling without using IMPORTANT*/
     background-color: teal;
-    width: 170px;
+    width: max-content;
 }
 
 .placeholder{
@@ -24,11 +24,19 @@ color: teal;
 .card{
     background-color: rgb(30, 39, 39);
     border: 5px solid teal;
-    border-style: solid hidden hidden hidden;
-    width: auto;
+    border-style: solid hidden hidden hidden;    
     padding: 0;
 }
 
 .footer{
+    float: left;
+    width: 100%;
     padding: 0px;
 }
+
+.clearfix{
+    display: block;
+    content: "";
+    clear: both;
+
+  }
