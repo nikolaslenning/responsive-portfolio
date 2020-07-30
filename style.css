@@ -1,3 +1,6 @@
+*{
+    font-family: serif;
+}
 
 .navbar-brand{
     color: white !important; /*Figure out a way to make override default CSS styling without using IMPORTANT*/
@@ -11,6 +14,11 @@
     max-width: 390px;
 }
     
+.btn{
+    background-color: teal;
+    color: white;
+}
+
 .h1{
 color: teal;
 }
