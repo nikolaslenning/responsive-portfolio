@@ -3,7 +3,6 @@
 }
 
 .navbar-brand{
-    color: white !important; /*Figure out a way to make override default CSS styling without using IMPORTANT*/
     background-color: teal;
     width: max-content;
     /* flex-basis: auto; */
@@ -12,11 +11,11 @@
 .placeholder{
     padding: 20px; 
     max-width: 390px;
+    max-height: 390px;
 }
     
 .btn{
-    background-color: teal;
-    color: white;
+    background-color: teal;    
 }
 
 .h1{
@@ -31,3 +30,12 @@ color: teal;
     background-color: rgb(30, 39, 39);
     border-top: 5px solid teal;
 }
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /* width: 100%; */
+    /* background-color: red;
+    color: white; */
+    /* text-align: center; */
+  /* } */ 
