@@ -6,13 +6,8 @@
     /* flex-basis: auto; */
 }
 
-/* .navbar-nav{
-    align-items: flex-end;
-} */
-
 .placeholder{
     padding: 20px; 
-    margin: 0;
     max-width: 390px;
 }
     
@@ -26,8 +21,5 @@ color: teal;
 
 .card{
     background-color: rgb(30, 39, 39);
-    border-top: 5px 
-    solid teal;
-    border-style: solid hidden hidden hidden;    
-    padding: 0;
+    border-top: 5px solid teal;
 }
