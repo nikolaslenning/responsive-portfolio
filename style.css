@@ -3,8 +3,16 @@
     color: white !important; /*Figure out a way to make override default CSS styling without using IMPORTANT*/
     background-color: teal;
     width: max-content;
-    float: left;
+    /* display: flex; */
+    /* float: left; */
 }
+
+.navbar-nav{
+    align-items: flex-end;
+}
+/* .navbar-toggler{
+    flex-basis: auto;
+} */
 
 .placeholder{
     padding: 20px; 
@@ -34,8 +42,8 @@ color: teal;
     padding: 0px;
 }
 
-.clearfix::after{
+/* .clearfix::after{
     display: block;
     content: "";
     clear: both;
-  }
+  } */
