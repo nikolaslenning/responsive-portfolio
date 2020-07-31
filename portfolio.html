@@ -14,40 +14,44 @@
 
 <body>
     <!-- Navbar Bootstrap CSS -->  
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-       <a class="col-lg-9 navbar-brand text-white" href="#">Nikolas Lenning</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav col-lg-3 d-flex align-items-end">
-                <a class="nav-item nav-link passive" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link active" href="./portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link passive" href="./index.html">About</a>                
+    <div class="container ml-0 pl-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand text-white mw-content" href="#">Nikolas Lenning</a>
+            <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link passive" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="./portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link passive" href="./index.html">About</a>                
+                </div>
             </div>
-        </div>
-   </nav>  
-    
-    <div class="container d-flex justify-content-center">
-        <!-- Placeholder Images -->
-        <div class="row pb-5"> 
+        </nav> 
+    </div>
+
+    <!-- Placeholder Images -->
+    <section class="container d-flex justify-content-center">
+        <figure class="row pb-5"> 
             <h1 class="col-lg-12 h1 pt-5 font-weight-bold">Portfolio</h1>
             <a class="col-12 col-lg-6 placeholder" href="https://placeholder.com"><img src="https://via.placeholder.com/350"></a>
             <a class="col-12 col-lg-6 placeholder" href="https://placeholder.com"><img src="https://via.placeholder.com/350"></a>
             <a class="col-12 col-lg-6 placeholder" href="https://placeholder.com"><img src="https://via.placeholder.com/350"></a>
             <a class="col-12 col-lg-6 placeholder" href="https://placeholder.com"><img src="https://via.placeholder.com/350"></a>            
             <a class="col-12 col-lg-6 placeholder" href="https://placeholder.com"><img src="https://via.placeholder.com/350"></a>            
-        </div>        
-    </div>
+        </figure>        
+    </section>
 
-    <!-- Footer Card need to figure out how to make it sticky/fixed to the-->
-    <div class="row">
-        <div class="footer col-12">
-            <div class="card text-center rounded-0">                    
-                <h6 class="card-footer text-muted"> &copy;Copyright 2020 Nikolas Lenning</h6>                     
+    <!-- Footer Card -->
+    <footer class="container">
+        <div class="row">
+            <div class="footer col-12 fixed-bottom text-center w-100">
+                <div class="card text-center rounded-0">                    
+                    <h6 class="card-footer text-muted"> &copy;Copyright 2020 Nikolas Lenning</h6>                     
+                </div>
             </div>
-        </div>
-    </div>    
+        </div>    
+    </footer>    
             
     <!-- Javascript Bootstrap CSS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
