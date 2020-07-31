@@ -13,8 +13,25 @@
 </head>
 
 <body>
+    <!-- Navbar Bootstrap CSS -->  
+    <div class="container ml-0 pl-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand text-white mw-content" href="#">Nikolas Lenning</a>
+            <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link passive" href="./portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link passive" href="./index.html">About</a>                
+                </div>
+            </div>
+        </nav> 
+    </div>
+
     <!-- CSS Bootstrap form -->
-    <form class="container">
+    <form class="container w-75">
         <h1 class="h1 font-weight-bold">Contact</h1>
         <div class="form-group col-sm-6">
             <label for="exampleInputName1">Name</label>
@@ -31,6 +48,17 @@
         
         <button type="submit" class="btn rounded-0 text-white">Submit</button>
     </form>
+
+     <!-- Footer Card -->
+     <footer class="container">
+        <div class="row">
+            <div class="footer col-12 fixed-bottom text-center w-100">
+                <div class="card text-center rounded-0">                    
+                    <h6 class="card-footer text-muted"> &copy;Copyright</h6>                     
+                </div>
+            </div>
+        </div>    
+    </footer>   
 
     <!-- Javascript Bootstrap CSS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
