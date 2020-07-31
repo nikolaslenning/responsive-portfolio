@@ -30,12 +30,11 @@ color: teal;
     background-color: rgb(30, 39, 39);
     border-top: 5px solid teal;
 }
-/* .footer {
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    /* width: 100%; */
-    /* background-color: red;
-    color: white; */
-    /* text-align: center; */
-  /* } */ 
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
