@@ -3,6 +3,8 @@
 
 Responsive Portfolio is a repository where I have created my own personal mobile responsive portfolio using Bootstrap CSS Framework to minimize the use of media queries. My page renders well on a variety of devices and screen sizes, this is accomplished through a responsive layouts
 
+![Webpage screenshot](/assets/images/Screenshot.png)
+
 [Bootstrap CSS Framework](https://getbootstrap.com/) was used.
 
 A live link to my [Responsive Portfolio](https://nikolaslenning.github.io/responsive-portfolio/) is hosted on Github pages.
