@@ -7,6 +7,8 @@ Responsive Portfolio is a repository where I have created my own personal mobile
 
 [Bootstrap CSS Framework](https://getbootstrap.com/) was used.
 
+[Markup Validation Service](https://validator.w3.org/) was used.
+
 A live link to my [Responsive Portfolio](https://nikolaslenning.github.io/responsive-portfolio/) is hosted on Github pages.
 
 This application was authored by [Nikolas Lenning](https://github.com/nikolaslenning).
