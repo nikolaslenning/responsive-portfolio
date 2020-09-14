@@ -41,3 +41,14 @@
     max-width: 390px;
     max-height: 390px;
 }
+
+.social-links {
+    display: inline-block;  
+    font-size: 2rem;
+}
+
+.social-icons {
+    align-content: center;
+    padding-left: 0em;
+    margin: 0em;
+}
