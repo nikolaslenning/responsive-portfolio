@@ -64,11 +64,11 @@
 }
 
 
-/* Flip Card CSS  */
+/* Flip Card CSS  https://3dtransforms.desandro.com/card-flip*/
 
 .scene {
     width: 200px;
-    height: 260px;
+    height: 360px;
     perspective: 600px;
   }
 
@@ -92,7 +92,7 @@
   }
   
   .card__face--back {
-    background: blue;
+    background: white;
     transform: rotateY( 180deg );
   }
 

@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Bootstrap CSS Link-->
+    <!-- Bootstrap CSS Link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <title>Responsive Portfolio</title>
@@ -15,53 +15,126 @@
 </head>
 
 <body>
-    <!-- Navbar Component Bootstrap CSS -->  
+    <!-- Navbar Component Bootstrap CSS -->
     <div class="container ml-0 pl-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand text-white mw-content font-weight-bold" href="https://www.linkedin.com/in/nikolas-lenning-8908311b0/">Nikolas Lenning</a>
-            <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand text-white mw-content font-weight-bold"
+                href="https://www.linkedin.com/in/nikolas-lenning-8908311b0/">Nikolas Lenning</a>
+            <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto float-right">
-                    <a class="nav-item nav-link passive" href="./index.html"><i class="fas fa-user-ninja"></i>  About</a>                
-                    <a class="nav-item nav-link active" href="./portfolio.html"><i class="fas fa-briefcase"></i>  Portfolio</a>
-                    <a class="nav-item nav-link passive" href="./contact.html"><i class="fas fa-laptop-code"></i>  Contact<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link passive" href="./Assets/Images/resume.pdf"><i class="fas fa-file-alt"></i>  Resume</a>                
+                    <a class="nav-item nav-link passive" href="./index.html"><i class="fas fa-user-ninja"></i> About</a>
+                    <a class="nav-item nav-link active" href="./portfolio.html"><i class="fas fa-briefcase"></i>
+                        Portfolio</a>
+                    <a class="nav-item nav-link passive" href="./contact.html"><i class="fas fa-laptop-code"></i>
+                        Contact<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link passive" href="./Assets/Images/resume.pdf"><i
+                            class="fas fa-file-alt"></i> Resume</a>
                 </div>
-            </div> 
-        </nav> 
+            </div>
+        </nav>
     </div>
 
     <!--Grid layout Bootstrap CSS Placeholder Images -->
-    <section class="container d-flex justify-content-center">
-        <figure class="row pb-5"> 
+    <section class="container-fluid d-block justify-content-start">
+        <div class="row pb-5">
             <h1 class="col-lg-12 h1 pt-5 font-weight-bold">Portfolio</h1>
-            <a class="col-12 col-lg-6 placeholder" href="https://picsum.photos/"><img src="https://picsum.photos/350" alt="placeholder image that changes with each refresh"></a>
-            <a class="col-12 col-lg-6 placeholder" href="https://picsum.photos/"><img src="https://picsum.photos/350" alt="placeholder image that changes with each refresh"></a>
-            <a class="col-12 col-lg-6 placeholder" href="https://picsum.photos/"><img src="https://picsum.photos/350" alt="placeholder image that changes with each refresh"></a>
-            <a class="col-12 col-lg-6 placeholder" href="https://picsum.photos/"><img src="https://picsum.photos/350" alt="placeholder image that changes with each refresh"></a>            
-            <a class="col-12 col-lg-6 placeholder" href="https://picsum.photos/"><img src="https://picsum.photos/350" alt="placeholder image that changes with each refresh"></a>    
-            <div class="scene">
-                <div class="card">
-                  <div class="card__face card__face--front">front</div>
-                  <div class="card__face card__face--back">back</div>
+            <!-- <a class="col-12 col-lg-6 placeholder" href="https://picsum.photos/"><img src="https://picsum.photos/350"
+                    alt="placeholder image that changes with each refresh"></a>
+            <a class="col-12 col-lg-6 placeholder" href="https://picsum.photos/"><img src="https://picsum.photos/350"
+                    alt="placeholder image that changes with each refresh"></a>
+            <a class="col-12 col-lg-6 placeholder" href="https://picsum.photos/"><img src="https://picsum.photos/350"
+                    alt="placeholder image that changes with each refresh"></a>
+            <a class="col-12 col-lg-6 placeholder" href="https://picsum.photos/"><img src="https://picsum.photos/350"
+                    alt="placeholder image that changes with each refresh"></a>
+            <a class="col-12 col-lg-6 placeholder" href="https://picsum.photos/"><img src="https://picsum.photos/350"
+                    alt="placeholder image that changes with each refresh"></a> -->
+            <!-- https://3dtransforms.desandro.com/card-flip Card Flip CSS source -->
+        </div>
+        <div class="row justify-content-between">
+            <div class="scene col-md-12 col-lg-6">
+                <div class="card" style="width: 48rem;">
+                    <div class="card-body card__face card__face--front">
+                        <img class="card-img-top" src="Assets/Images/whatnextscreenshot.png" alt="Card image cap">
+
+                        <h4 class="pt-2">WhatsNext</h4>
+                        <p class="card-text">Web app where users can explore and save incoming and outgoing Netflix
+                            titles
+                            based on date.</p>
+                    </div>
+
+                    <div class="card__face card__face--back">
+                        <h4 class="p-2">Accomplishments</h4>
+                        <ul>
+                            <li>Built with jQuery backend</li>
+                            <li>UIKit CSS frontend</li>
+                            <li>Client-side rendering (AJAX)</li>
+                            <li>Integrated uNoGs & OMDBi APIs</li>
+                        </ul>
+                        <div class="card-links card-footer fixed-bottom">
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://nikolaslenning.github.io/WhatsNext/" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://github.com/nikolaslenning/WhatsNext" target="_blank"><i
+                                    class="fab fa-github"></i></i></a>
+                        </div>
+                    </div>
                 </div>
-              </div>   
-        </figure>        
+            </div>
+            <div class="scene col-sm-12 col-lg-6">
+                <div class="card" style="width: 48rem;">
+                    <div class="card-body card__face card__face--front">
+                        <img class="card-img-top" src="Assets/Images/whatnextscreenshot.png" alt="Card image cap">
+
+                        <h4 class="pt-2">WhatsNext</h4>
+                        <p class="card-text">Web app where users can explore and save incoming and outgoing Netflix
+                            titles
+                            based on date.</p>
+                    </div>
+
+                    <div class="card__face card__face--back">
+                        <h4 class="p-2">Accomplishments</h4>
+                        <ul>
+                            <li>Built with jQuery backend</li>
+                            <li>UIKit CSS frontend</li>
+                            <li>Client-side rendering (AJAX)</li>
+                            <li>Integrated uNoGs & OMDBi APIs</li>
+                        </ul>
+                        <div class="card-links card-footer fixed-bottom">
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://nikolaslenning.github.io/WhatsNext/" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://github.com/nikolaslenning/WhatsNext" target="_blank"><i
+                                    class="fab fa-github"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </section>
-    
-   <!-- Footer Card Component Bootstrap CSS-->
+
+    <a aria-label="Visit Interpol8r web app" href="https://interpol8r.herokuapp.com/" target="_blank"
+        data-position="top" data-tooltip="View Online" class=""><i class="fa fa-external-link"></i></a>
+
+    <!-- Footer Card Component Bootstrap CSS-->
     <footer class="container">
         <div class="row">
             <div class="footer col-12 fixed-bottom text-center w-100">
-                <div class="card-class card text-center rounded-0">                    
-                    <h6 class="card-footer text-muted"> &copy;Copyright</h6>                     
+                <div class="card-class card text-center rounded-0">
+                    <h6 class="card-footer text-muted"> &copy;Copyright</h6>
                 </div>
             </div>
-        </div>    
-    </footer>  
-            
+        </div>
+    </footer>
+
     <!-- Javascript Bootstrap CSS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -72,6 +145,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-        <script src='./index.js'></script>
+    <script src='./index.js'></script>
 </body>
+
 </html>
