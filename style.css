@@ -52,3 +52,12 @@
     padding-left: 0em;
     margin: 0em;
 }
+
+#html-img {
+    width: 90px;
+    height: 90px;
+}
+
+#img-text {
+    width: 90px;
+}
