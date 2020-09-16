@@ -68,8 +68,9 @@
 
 .scene {
     width: 200px;
-    height: 360px;
+    height: 500px;
     perspective: 600px;
+    padding: 20px;
   }
 
   .card {
@@ -78,6 +79,7 @@
     position: relative;
     transition: transform 1s;
     transform-style: preserve-3d;
+    display: block;
   }
 
   .card__face {
