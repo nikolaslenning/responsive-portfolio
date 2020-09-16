@@ -16,10 +16,9 @@
 
 <body>
     <!-- Navbar Component Bootstrap CSS -->
-    <div class="container ml-0 pl-0">
+    <div class="container-fluid ml-0 pl-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand text-white mw-content font-weight-bold"
-                href="https://www.linkedin.com/in/nikolas-lenning-8908311b0/">Nikolas Lenning</a>
+            <a class="navbar-brand text-white mw-content font-weight-bold" href="./index.html">Nikolas Lenning</a>
             <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse"
                 data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -31,7 +30,7 @@
                     <a class="nav-item nav-link active" href="./portfolio.html"><i class="fas fa-briefcase"></i>
                         Portfolio</a>
                     <a class="nav-item nav-link passive" href="./contact.html"><i class="fas fa-laptop-code"></i>
-                        Contact<span class="sr-only">(current)</span></a>
+                        Skills<span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link passive" href="./Assets/Images/resume.pdf"><i
                             class="fas fa-file-alt"></i> Resume</a>
                 </div>
@@ -41,9 +40,9 @@
 
     <!--Grid layout Bootstrap CSS Placeholder Images -->
     <section class="container-fluid d-block justify-content-start">
-        <div class="row pb-5">
+        <div class="row pb-2">
             <h1 class="col-lg-12 h1 pt-5 font-weight-bold">Portfolio</h1>
-            <!-- <a class="col-12 col-lg-6 placeholder" href="https://picsum.photos/"><img src="https://picsum.photos/350"
+            <!-- <a class="col-sm-12 col-m-6 placeholder" href="https://picsum.photos/"><img src="https://picsum.photos/350"
                     alt="placeholder image that changes with each refresh"></a>
             <a class="col-12 col-lg-6 placeholder" href="https://picsum.photos/"><img src="https://picsum.photos/350"
                     alt="placeholder image that changes with each refresh"></a>
@@ -55,18 +54,17 @@
                     alt="placeholder image that changes with each refresh"></a> -->
             <!-- https://3dtransforms.desandro.com/card-flip Card Flip CSS source -->
         </div>
-        <div class="row justify-content-between d-block">
-            <div class="scene col-md-12 col-lg-6">
-                <div class="card" style="width: 48rem;">
+        <div class="row justify-content-between">
+            <div class="scene col-12 col-md-6 col-lg-4">
+                <div class="card">
                     <div class="card-body card__face card__face--front">
                         <img class="card-img-top" src="Assets/Images/whatnextscreenshot.png" alt="Card image cap">
 
                         <h4 class="pt-2">WhatsNext</h4>
                         <p class="card-text">Web app where users can explore and save incoming and outgoing Netflix
-                            titles
-                            based on date.</p>
+                            titles based on date.</p>
                     </div>
-                    
+
                     <div class="card__face card__face--back">
                         <h4 class="p-2">Accomplishments</h4>
                         <ul>
@@ -75,26 +73,25 @@
                             <li>Client-side rendering (AJAX)</li>
                             <li>Integrated uNoGs & OMDBi APIs</li>
                         </ul>
-                        <div class="card-links card-footer fixed-bottom">
-                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                        <div class="card-footer fixed-bottom position-absolute">
+                            <a class="btn btn-floating rounded-circle btn-large card-links"
                                 href="https://nikolaslenning.github.io/WhatsNext/" target="_blank"><i
                                     class="fas fa-external-link-alt"></i></a>
-                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                            <a class="btn btn-floating rounded-circle btn-large card-links"
                                 href="https://github.com/nikolaslenning/WhatsNext" target="_blank"><i
-                                    class="fab fa-github"></i></i></a>
+                                    class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="scene col-sm-12 col-lg-6">
-                <div class="card1" style="width: 48rem;">
+            <div class="scene col-12 col-md-6 col-lg-4">
+                <div class="card">
                     <div class="card-body card__face card__face--front">
                         <img class="card-img-top" src="Assets/Images/whatnextscreenshot.png" alt="Card image cap">
 
                         <h4 class="pt-2">WhatsNext</h4>
                         <p class="card-text">Web app where users can explore and save incoming and outgoing Netflix
-                            titles
-                            based on date.</p>
+                            titles based on date.</p>
                     </div>
 
                     <div class="card__face card__face--back">
@@ -111,7 +108,7 @@
                                     class="fas fa-external-link-alt"></i></a>
                             <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
                                 href="https://github.com/nikolaslenning/WhatsNext" target="_blank"><i
-                                    class="fab fa-github"></i></i></a>
+                                    class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -121,8 +118,7 @@
 
     </section>
 
-    <a aria-label="Visit Interpol8r web app" href="https://interpol8r.herokuapp.com/" target="_blank"
-        data-position="top" data-tooltip="View Online" class=""><i class="fa fa-external-link"></i></a>
+
 
     <!-- Footer Card Component Bootstrap CSS-->
     <footer class="container">

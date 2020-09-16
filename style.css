@@ -1,5 +1,8 @@
+
+
 *{
     font-family: serif;
+    font-size: calc(1em + .03vw + .03vh);
 }
 
 .btn{
@@ -57,20 +60,23 @@
 #html-img {
     width: 90px;
     height: 90px;
+    
 }
 
 #img-text {
-    width: 90px;
+    width: 90px; 
+    
 }
 
 
-/* Flip Card CSS  https://3dtransforms.desandro.com/card-flip*/
+/* Flip Card CSS  3dtransforms.desandro.com/card-flip*/
 
 .scene {
     width: 200px;
     height: 500px;
-    perspective: 600px;
+    perspective: 500px;
     padding: 20px;
+    display: inline-block;
   }
 
   .card {
@@ -81,7 +87,7 @@
     transform-style: preserve-3d;
     display: block;
   }
-
+  
   .card__face {
     position: absolute;
     height: 100%;
@@ -91,6 +97,7 @@
 
   .card__face--front {
     background: red;
+    height: auto;
   }
   
   .card__face--back {
@@ -101,3 +108,6 @@
   .card.is-flipped {
     transform: rotateY(180deg);
   }
+
+  /* responsive text sizing */
+ 
