@@ -3,6 +3,7 @@
 *{
     font-family: serif;
     font-size: calc(1em + .03vw + .03vh);
+    /* https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/#:~:text=What%20Are%20the%20Bootstrap%204,will%20be%20increased%2Fdecreased%20automatically. */
 }
 
 body {
