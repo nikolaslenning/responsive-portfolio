@@ -31,8 +31,7 @@ body {
 }
 
 .card-img {
-    border-color: black;
-    border-width: 5px;
+   max-height: 450px;
 }
 
 .container {
