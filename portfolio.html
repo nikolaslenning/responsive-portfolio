@@ -15,13 +15,14 @@
 </head>
 
 <body>
-    
     <!-- Navbar Component Bootstrap CSS -->
     <div class="container-fluid ml-0 pl-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
             <div class="nav-name">
-                <a style="text-decoration : none" href="./index.html"><h1 class="h1">Nikolas Lenning</h1></a>                
+                <a style="text-decoration : none" href="./index.html">
+                    <h1 class="h1">Nikolas Lenning</h1>
+                </a>
                 <h4>Full Stack Developer</h4>
             </div>
 
@@ -33,13 +34,16 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto float-right">
-                    <a class="nav-item nav-link passive" href="./index.html"><i class="fas fa-user-ninja" style="color:rebeccapurple"></i> About</a>
-                    <a class="nav-item nav-link active" href="./portfolio.html"><i class="fas fa-briefcase" style="color: saddlebrown"></i>
+                    <a class="nav-item nav-link passive" href="./index.html"><i class="fas fa-user-ninja"
+                            style="color:rebeccapurple"></i> About</a>
+                    <a class="nav-item nav-link active" href="./portfolio.html"><i class="fas fa-briefcase"
+                            style="color: saddlebrown"></i>
                         Portfolio</a>
-                    <a class="nav-item nav-link passive" href="./contact.html"><i class="fas fa-laptop-code" style="color: hotpink"></i>
+                    <a class="nav-item nav-link passive" href="./contact.html"><i class="fas fa-laptop-code"
+                            style="color: hotpink"></i>
                         Skills<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link passive" href="./Assets/Images/resume.pdf"><i
-                            class="fas fa-file-alt" style="color: turquoise"></i> Resume</a>
+                    <a class="nav-item nav-link passive" href="./Assets/Images/resume.pdf"><i class="fas fa-file-alt"
+                            style="color: turquoise"></i> Resume</a>
                 </div>
             </div>
         </nav>
@@ -50,13 +54,48 @@
         <div class="row pb-2">
             <h1 class="col-lg-12 page-title pt-5">Portfolio</h1>
         </div>
-            
+
         <!-- https://3dtransforms.desandro.com/card-flip Card Flip CSS source -->
         <div class="row justify-content-between">
+
             <div class="scene col-12 col-md-6 col-lg-4">
                 <div class="card card-border">
                     <div class="card-body card__face card__face--front">
-                        <img class="card-img border border-light" src="Assets/Images/whatnextscreenshot.png" alt="WhatNext screenshot">
+                        <img class="card-img border border-light" style="max-width: 600px; max-height: 300px;"
+                            src="Assets/Images/burger.png" alt="Burger Bonanza app screenshot">
+
+                        <h4 class="pt-2 font-weight-bold">Burger Bonanza</h4>
+                        <p class="card-text">App that lets users input the names of burgers they'd like to eat. Every burger is stored in a database, whether devoured or not.</p>
+                    </div>
+
+                    <div class="card__face card__face--back">
+                        <h4 class="p-2">Accomplishments</h4>
+                        <ul>
+                            <li>Built with Node.js backend</li>
+                            <li>Express web framework to structure and organize app</li>
+                            <li>Database managed using MySQL</li>
+                            <li>Utilized Handlebars template engine</li>
+                            <li>MVC design pattern</li>
+                            <li>Bootstrap CSS frontend</li>
+
+                        </ul>
+                        <div class="card-links card-footer fixed-bottom">
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://whispering-anchorage-18340.herokuapp.com/" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                            <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                href="https://github.com/nikolaslenning/Burger-Bonanza" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scene col-12 col-md-6 col-lg-4">
+                <div class="card card-border">
+                    <div class="card-body card__face card__face--front">
+                        <img class="card-img border border-light" src="Assets/Images/whatnextscreenshot.png"
+                            alt="WhatNext screenshot">
                         <h4 class="pt-2 font-weight-bold">WhatsNext</h4>
                         <p class="card-text">Web app where users can explore and save incoming and outgoing Netflix
                             titles based on date.</p>
@@ -85,10 +124,12 @@
             <div class="scene col-12 col-md-6 col-lg-4">
                 <div class="card card-border">
                     <div class="card-body card__face card__face--front">
-                        <img class="card-img border border-light" src="Assets/Images/weather.png" alt="weather dashboard screenshot">
+                        <img class="card-img border border-light" src="Assets/Images/weather.png"
+                            alt="weather dashboard screenshot">
 
                         <h4 class="pt-2 font-weight-bold">Weather Dashboard</h4>
-                        <p class="card-text">Web app the displays the current weather as well as a 5 day forcast for any city the user searches for. </p>
+                        <p class="card-text">Web app the displays the current weather as well as a 5 day forcast for any
+                            city the user searches for. </p>
                     </div>
 
                     <div class="card__face card__face--back">
@@ -114,10 +155,12 @@
             <div class="scene col-12 col-md-6 col-lg-4">
                 <div class="card card-border">
                     <div class="card-body card__face card__face--front">
-                        <img class="card-img border border-light" src="Assets/Images/dayplanner.png" alt="weather dashboard screenshot">
+                        <img class="card-img border border-light" src="Assets/Images/dayplanner.png"
+                            alt="weather dashboard screenshot">
 
                         <h4 class="pt-2 font-weight-bold">Day Planner</h4>
-                        <p class="card-text">Repository that allows the user to save events for each hour of the work day while dynamically updating the date and time. </p>
+                        <p class="card-text">Repository that allows the user to save events for each hour of the work
+                            day while dynamically updating the date and time. </p>
                     </div>
 
                     <div class="card__face card__face--back">
@@ -144,10 +187,12 @@
             <div class="scene col-12 col-md-6 col-lg-4">
                 <div class="card card-border">
                     <div class="card-body card__face card__face--front">
-                        <img class="card-img border border-light" style="max-width: 600px; max-height: 300px;" src="Assets/Images/passwordgen.png" alt="weather dashboard screenshot">
+                        <img class="card-img border border-light" style="max-width: 600px; max-height: 300px;"
+                            src="Assets/Images/passwordgen.png" alt="weather dashboard screenshot">
 
                         <h4 class="pt-2 font-weight-bold">Password Generator</h4>
-                        <p class="card-text">Web app that generates a random password based on user-selected criteria resulting in a dynamic and interactive experience for the user. </p>
+                        <p class="card-text">Web app that generates a random password based on user-selected criteria
+                            resulting in a dynamic and interactive experience for the user. </p>
                     </div>
 
                     <div class="card__face card__face--back">
@@ -155,7 +200,7 @@
                         <ul>
                             <li>Built with JavaScript backend</li>
                             <li>Styled using CSS</li>
-                            
+
                         </ul>
                         <div class="card-links card-footer fixed-bottom">
                             <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
